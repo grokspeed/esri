@@ -1,0 +1,6 @@
+1) add client-side photo data https://developers.arcgis.com/javascript/latest/sample-code/layers-featurelayer-collection/
+2) try streamlayer with Samsara feeds https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-StreamLayer.html
+3) troubleshoot dotenv to retrieve clientID and secret properly
+4) add button to html to switch between different demos
+5) put everying into LWC/Apex or host in Azure and integrate with LWC somehow
+6) refactor to handle iterative operations more cleanly (truck path 1 and path2, levio map layer 1 and layer 2)

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Path visualization in 3D | Sample | ArcGIS Maps SDK for JavaScript 4.32
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.32/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.32/"></script>
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu {
+        padding: 1em;
+      }
+
+      #menu > div {
+        padding: 0.4em;
+      }
+
+      select {
+        font-family: "Avenir Next W00", "Helvetica Neue", Helvetica, Arial,
+          sans-serif;
+      }
+    </style>
+
+    <script src="levioLayer.js"></script>
+  </head>
+
+  <body>
+    <div id="viewDiv" class="esri-widget"></div>
+  </body>
+</html>
